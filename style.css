@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background: cornflowerblue;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 20px 10px;
+}
+
+.gallery {
+  width: 90%;
+  height: 80vh;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery a {
+  width: 30%;
+  overflow: hidden;
+  height: 200px;
+  background-color: aquamarine;
+  margin: 5px;
+  box-shadow: #575757 0px 4px 8px 1px;
+}
+
+.gallery a img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-container {
+  width: 90%;
+  height: 80vh;
+  padding: 40px 0;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.img1 {
+  width: 50%;
+  height: 80vh;
+  background-image: url(./img/avenger\ 1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img2 {
+  width: 50%;
+  height: 80vh;
+  background-image: url(./img/avenger\ 2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img3 {
+  width: 50%;
+  height: 80vh;
+  background-image: url(./img/avenger\ 3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img4 {
+  width: 50%;
+  height: 80vh;
+  background-image: url(./img/avenger\ 4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img5 {
+  width: 50%;
+  height: 80vh;
+  background-image: url(./img/avenger\ 5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img6 {
+  width: 50%;
+  height: 80vh;
+  background-image: url(./img/avenger\ 6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  padding: 20px;
+  width: 45%;
+}
+
+.content h2 {
+  font-size: 35pt;
+  font-weight: lighter;
+  color: dodgerblue;
+  border-bottom: #e7e7e7 thin solid;
+  width: 100%;
+}
+
+.content h4 {
+  font-size: 16pt;
+  font-weight: lighter;
+  margin-top: 15px;
+  width: 100%;
+  background-color: #f1f0f0;
+}
+
+.back {
+  margin-top: 20px;
+}
+
+.back a {
+  background-color: dodgerblue;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.back a:hover {
+  background-color: #1b77d3;
+}
+
+.bg-fill {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/bg.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.fill-wrapper {
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.fill-wrapper-lite {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.fill-wrapper h4 {
+  font-size: 45pt;
+  font-weight: lighter;
+}
